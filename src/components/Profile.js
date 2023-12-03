@@ -1,12 +1,10 @@
 const Profile = () => {
   return (
     <div className="px-32 py-4 bg-lightgrey">
-      <h2 className="title">Profile</h2>
-      <div className="flex">
-        <div className="flex flex-wrap w-1/2 bg-white rounded-lg m-8 p-16">
-          <h3 className="text-pink pf text-lg tracking-tight w-full">
-            Basic Information
-          </h3>
+      <div className=" flex flex-wrap justify-center min-[320px] max-[600px]">
+        <h2 className="title">Profile</h2>
+        <div className="flex flex-wrap w-[500px] min-w-min bg-white rounded-lg p-4 md:p-16">
+          <h3 className="text-pink pf text-lg w-full">Basic Information</h3>
           <ul>
             <li className="list-none flex py-4">
               <p className="w-1/2 font-semibold">Birth Date</p>
@@ -26,10 +24,8 @@ const Profile = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-wrap w-1/2 m-8 p-16">
-          <h3 className="text-black pf text-lg tracking-tight w-full">
-            About me
-          </h3>
+        <div className="flex flex-wrap w-[500px] min-w-min p-4 md:p-16">
+          <h3 className="text-black pf text-lg w-full">About me</h3>
           <p className="text-black leading-6 tracking-tight">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
             aut, odit laborum aliquam voluptatum nisi mollitia.

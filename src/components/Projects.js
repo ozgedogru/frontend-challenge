@@ -2,8 +2,8 @@ const Projects = () => {
   return (
     <div className="px-32 flex flex-wrap justify-center py-4">
       <h2 className="title">Projects</h2>
-      <div className="flex gap-4">
-        <div className="bg-babyblue p-8 w-1/2 rounded-lg min-h-[668px]">
+      <div className="flex flex-wrap justify-center gap-16 ">
+        <div className="bg-babyblue p-8 w-[460px] rounded-lg min-h-[668px] relative">
           <h3 className="text-black pf text-2xl font-bold  tracking-widest mb-4">
             Project I
           </h3>
@@ -17,7 +17,7 @@ const Projects = () => {
             <div className="hashtag">axios</div>
             <div className="hashtag">router</div>
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-between py-8">
             <a
               className="my-4 text-black text-lg font-semibold leading-8 "
               href="https://github.com/ozgedogru"
@@ -30,9 +30,17 @@ const Projects = () => {
               <img className="inline" src="./icons/arrow-right.svg"></img>
             </a>
           </div>
-          <img className="m-auto" src="./pc-left.png" alt="pc"></img>
+          <img
+            className="absolute left-1/2 transform -translate-x-1/2 bottom-11 w-84 h-52"
+            src="./pics/screen-left.png"
+          ></img>
+          <img
+            className="absolute left-1/2 transform -translate-x-1/2 bottom-0"
+            src="./pics/pc-left.png"
+            alt="pc"
+          ></img>
         </div>
-        <div className="bg-babygreen p-8 w-1/2 rounded-lg min-h-[668px]">
+        <div className="bg-babygreen p-8 w-[460px] rounded-lg min-h-[668px] relative">
           <h3 className="text-black pf text-2xl font-bold  tracking-widest mb-4">
             Project II
           </h3>
@@ -49,7 +57,7 @@ const Projects = () => {
             <div className="hashtag">router</div>
             <div className="hashtag">vercel</div>
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-between py-8">
             <a
               className="my-4 text-black text-lg font-semibold leading-8 "
               href="https://github.com/ozgedogru"
@@ -62,7 +70,15 @@ const Projects = () => {
               <img className="inline" src="./icons/arrow-right.svg"></img>
             </a>
           </div>
-          <img className="m-auto" src="./pc-left.png" alt="pc"></img>
+          <img
+            className="absolute left-1/2 transform -translate-x-1/2 bottom-11 w-84 h-52"
+            src="./pics/screen-right.png"
+          ></img>
+          <img
+            className="absolute left-1/2 transform -translate-x-1/2 bottom-0"
+            src="./pics/pc-right.png"
+            alt="pc"
+          ></img>
         </div>
       </div>
       <div className="flex p-16">
