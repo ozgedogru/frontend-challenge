@@ -1,33 +1,35 @@
+import { useContext } from "react";
+import { GlobalContextObject } from "../contexts/GlobalContext";
+
 const Projects = () => {
   return (
-    <div className="px-32 flex flex-wrap justify-center py-4">
-      <h2 className="title">Projects</h2>
+    <div className="dark:bg-lightblack  px-32 flex flex-wrap justify-center py-4">
+      <h2 className="title dark:text-white ">Projects</h2>
       <div className="flex flex-wrap justify-center gap-16 ">
-        <div className="bg-babyblue p-8 w-[460px] rounded-lg min-h-[668px] relative">
-          <h3 className="text-black pf text-2xl font-bold  tracking-widest mb-4">
+        <div className="bg-babyblue dark:bg-project1 p-8 w-[460px] rounded-lg min-h-[668px] relative">
+          <h3 className="text-black dark:text-white pf text-2xl font-bold  tracking-widest mb-4">
             Project I
           </h3>
-          <p className="text-black text-base leading-6 my-6">
+          <p className="text-black dark:text-white text-base leading-6 my-6">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
             aut, odit laborum aliquam voluptatum nisi mollitia.
           </p>
           <div className="flex flex-wrap gap-[0.5rem]">
-            <div className="hashtag">react</div>
-            <div className="hashtag">vercel</div>
-            <div className="hashtag">axios</div>
-            <div className="hashtag">router</div>
+            <div className="hashtag dark:dark">react</div>
+            <div className="hashtag dark:dark">vercel</div>
+            <div className="hashtag dark:dark">axios</div>
+            <div className="hashtag dark:dark">router</div>
           </div>
           <div className="flex justify-between py-8">
             <a
-              className="my-4 text-black text-lg font-semibold leading-8 "
+              className="my-4 text-black dark:text-white text-lg font-semibold leading-8 "
               href="https://github.com/ozgedogru"
               target="_blank"
             >
               View on GitHub
             </a>
-            <a className="my-4 text-black text-lg font-semibold leading-8">
-              Go to app{" "}
-              <img className="inline" src="./icons/arrow-right.svg"></img>
+            <a className="my-4 text-black dark:text-white text-lg font-semibold leading-8">
+              Go to app →
             </a>
           </div>
           <img
@@ -40,34 +42,33 @@ const Projects = () => {
             alt="pc"
           ></img>
         </div>
-        <div className="bg-babygreen p-8 w-[460px] rounded-lg min-h-[668px] relative">
-          <h3 className="text-black pf text-2xl font-bold  tracking-widest mb-4">
+        <div className="bg-babygreen dark:bg-project2 p-8 w-[460px] rounded-lg min-h-[668px] relative">
+          <h3 className="text-black dark:text-white pf text-2xl font-bold  tracking-widest mb-4">
             Project II
           </h3>
-          <p className="text-black text-base leading-6 my-6">
+          <p className="text-black dark:text-white text-base leading-6 my-6">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
             aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus
             ratione soluta aperiam sit voluptate? Dicta quod deserunt quam
             temporibus cumque magnam!
           </p>
           <div className="flex flex-wrap gap-[0.5rem]">
-            <div className="hashtag">react</div>
-            <div className="hashtag">redux</div>
-            <div className="hashtag">axios</div>
-            <div className="hashtag">router</div>
-            <div className="hashtag">vercel</div>
+            <div className="hashtag dark:dark">react</div>
+            <div className="hashtag dark:dark">redux</div>
+            <div className="hashtag dark:dark">axios</div>
+            <div className="hashtag dark:dark">router</div>
+            <div className="hashtag dark:dark">vercel</div>
           </div>
           <div className="flex justify-between py-8">
             <a
-              className="my-4 text-black text-lg font-semibold leading-8 "
+              className="my-4 text-black dark:text-white text-lg font-semibold leading-8 "
               href="https://github.com/ozgedogru"
               target="_blank"
             >
               View on GitHub
             </a>
-            <a className="my-4 text-black text-lg font-semibold leading-8">
-              Go to app{" "}
-              <img className="inline" src="./icons/arrow-right.svg"></img>
+            <a className="my-4 text-black dark:text-white text-lg font-semibold leading-8">
+              Go to app →
             </a>
           </div>
           <img
@@ -82,7 +83,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="flex p-16">
-        <p className=" text-black text-5xl font-medium leading-16 tracking-tight w-2/3 text-right p-8">
+        <p className=" text-black dark:text-white text-5xl font-medium leading-16 tracking-tight w-2/3 text-right p-8">
           Let’s work together on your next product.
         </p>
         <div className="flex flex-wrap w-1/3 p-8">
@@ -93,7 +94,7 @@ const Projects = () => {
           >
             GitHub
           </a>
-          <a className="text-black text-xl font-medium leading-6 w-full">
+          <a className="text-black dark:text-white text-xl font-medium leading-6 w-full">
             Personal Blog
           </a>
           <a

@@ -18,8 +18,16 @@ module.exports = {
         black: "#0A0A14",
         white: "#FFF",
         purple: "#764ABC",
+
+        darkblack: "#2A262B",
+        lightblack: "#484148;",
+        basicinfo: "#525252",
+        project1: "#2D3235",
+        project2: "#495351",
+        logo: "#D9D9D9",
       },
     },
   },
+  darkMode: "class",
   plugins: [],
 };

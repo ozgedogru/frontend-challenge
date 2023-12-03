@@ -1,12 +1,6 @@
 const AboutMe = () => {
   return (
-    <div className="bg-lightgrey px-32 flex flex-wrap justify-center py-8">
-      <div className="w-full flex justify-end pb-16">
-        <div className="text-grey pl-4">|</div>
-        <button className="text-grey font-bold pl-4 tracking-wider">
-          <span className="text-pink font-bold ">TÜRKÇE</span>’YE GEÇ
-        </button>
-      </div>
+    <div className="bg-lightgrey dark:bg-darkblack dark:text-white px-32 flex flex-wrap justify-center py-8">
       <div className="flex flex-wrap-reverse justify-center w-full">
         <div className="w-[666px] p-4">
           <p className="text-3xl tracking-wider	">Hi! 👋 </p>

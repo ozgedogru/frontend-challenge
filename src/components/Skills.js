@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
-    <div className="px-32 flex flex-wrap justify-center py-4">
-      <h2 className="title">Skills</h2>
+    <div className="dark:bg-lightblack dark:text-logo px-32 flex flex-wrap justify-center py-4">
+      <h2 className="title dark:text-white">Skills</h2>
       <div className="p-4 text-center">
         <img
           className="w-32 h-32 mb-4 rounded-md"

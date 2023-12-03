@@ -1,9 +1,9 @@
 const Profile = () => {
   return (
-    <div className="px-32 py-4 bg-lightgrey">
-      <div className=" flex flex-wrap justify-center min-[320px] max-[600px]">
-        <h2 className="title">Profile</h2>
-        <div className="flex flex-wrap w-[500px] min-w-min bg-white rounded-lg p-4 md:p-16">
+    <div className="px-32 py-4 bg-lightgrey dark:bg-darkblack ">
+      <div className=" flex flex-wrap justify-center min-[320px] max-[600px] mb-8">
+        <h2 className="title dark:text-white">Profile</h2>
+        <div className="flex flex-wrap w-[500px] min-w-min bg-white dark:bg-basicinfo dark:text-white rounded-lg p-4 md:p-16">
           <h3 className="text-pink pf text-lg w-full">Basic Information</h3>
           <ul>
             <li className="list-none flex py-4">
@@ -25,8 +25,10 @@ const Profile = () => {
           </ul>
         </div>
         <div className="flex flex-wrap w-[500px] min-w-min p-4 md:p-16">
-          <h3 className="text-black pf text-lg w-full">About me</h3>
-          <p className="text-black leading-6 tracking-tight">
+          <h3 className="text-black dark:text-white pf text-lg w-full">
+            About me
+          </h3>
+          <p className="text-black dark:text-white leading-6 tracking-tight">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
             aut, odit laborum aliquam voluptatum nisi mollitia.
             <br />

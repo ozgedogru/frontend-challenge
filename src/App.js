@@ -1,16 +1,22 @@
-import "./App.css";
+import Options from "./components/Options";
 import AboutMe from "./components/AboutMe";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import GlobalContextProvider from "./contexts/GlobalContext";
+
+import "./App.css";
 
 function App() {
   return (
     <div>
-      <AboutMe />
-      <Skills />
-      <Profile />
-      <Projects />
+      <GlobalContextProvider>
+        <Options />
+        <AboutMe />
+        <Skills />
+        <Profile />
+        <Projects />
+      </GlobalContextProvider>
     </div>
   );
 }
