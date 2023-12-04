@@ -12,12 +12,11 @@ const Options = () => {
     const newLanguage = language === "en" ? "tr" : "en";
     setLanguage(newLanguage);
     i18n.changeLanguage(newLanguage);
-    console.log("Dil secenegi degistirildi!");
   };
 
   const toggleTheme = () => {
-    setTheme((current) => (current === "light" ? "dark" : "light"));
-    console.log("Tema secenegi degistirildi!", theme);
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
   };
 
   useEffect(() => {

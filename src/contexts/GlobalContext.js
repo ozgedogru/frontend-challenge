@@ -1,10 +1,11 @@
-import { createContext, useState } from "react";
+import { createContext } from "react";
+import useLocalStorage from "../hooks/useLocalStorage";
 
 export const GlobalContextObject = createContext();
 
 const GlobalContextProvider = ({ children }) => {
-  const [theme, setTheme] = useState("light");
-  const [language, setLanguage] = useState("tr");
+  const [theme, setTheme] = useLocalStorage("theme", "light");
+  const [language, setLanguage] = useLocalStorage("language", "en");
 
   return (
     <GlobalContextObject.Provider
