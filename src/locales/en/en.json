@@ -1,0 +1,19 @@
+{
+  "greeting": "Hi! 👋",
+  "skills": "Skills",
+  "intro": "I’m Özge. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
+  "profile": "Profile",
+  "aboutme": "About me",
+  "basic info": "Basic Information",
+  "birth date": "Birth Date",
+  "residence": "Residence",
+  "education": "Education Status",
+  "role": "Prefferred Role",
+  "projects": "Projects",
+  "project": "Project",
+  "github": "View on GitHub",
+  "app": "Go to app",
+  "work together": "Let’s work together on your next product.",
+  "blog": "Personal Blog",
+  "email": "Eposta"
+}

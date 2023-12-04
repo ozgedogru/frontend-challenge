@@ -1,0 +1,19 @@
+{
+  "greeting": "Merhaba! 👋",
+  "intro": "Ben Özge. Full-stack web geliştiricisiyim. Kaliteli ve ölçeklenebilir ön yüz ürünleri üretebilirim. Tanışalım!",
+  "skills": "Yetenekler",
+  "profile": "Profil",
+  "aboutme": "Hakkımda",
+  "basic info": "Kişisel Bilgiler",
+  "birth date": "Doğum Tarihi",
+  "residence": "İkamet Şehri",
+  "education": "Eğitim Durumu",
+  "itu": "İTÜ Meteoroloji Müh., 2018",
+  "role": "Tercih Edilen Rol",
+  "projects": "Projeler",
+  "project": "Proje",
+  "github": "GitHub'da İncele",
+  "app": "Uygulama'ya git",
+  "work together": "Bir sonraki projeniz üzerinde birlikte çalışalım.",
+  "blog": "Kişisel Blog"
+}
