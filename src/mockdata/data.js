@@ -32,7 +32,7 @@ const data = {
         hashtag: ["react", "redux", "axios", "router", "vercel"],
         linkGitHub:
           "https://github.com/ozgedogru/fsweb-s10g2-redux-filmler/tree/main",
-        linkApp: "https://vercel.com/",
+        linkApp: "https://fsweb-s10g2-redux-filmler-lime.vercel.app/movies",
       },
     },
   },
@@ -61,7 +61,7 @@ const data = {
         hashtag: ["react", "redux", "axios", "router", "vercel"],
         linkGitHub:
           "https://github.com/ozgedogru/fsweb-s10g2-redux-filmler/tree/main",
-        linkApp: "https://vercel.com/",
+        linkApp: "https://fsweb-s10g2-redux-filmler-lime.vercel.app/movies",
       },
     },
   },

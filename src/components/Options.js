@@ -44,7 +44,7 @@ const Options = () => {
             </span>
           ) : (
             <span className="text-grey font-bold pl-4 tracking-wider">
-              {theme === "dark" ? "GECE" : "GUNDUZ"} MODU
+              {theme === "dark" ? "GÜNDÜZ" : "GECE"} MODU
             </span>
           )}
         </label>

@@ -38,7 +38,9 @@ const Projects = () => {
                   {t("github")}
                 </a>
                 <a
-                  href={fetchedData?.en.projects.project1.text}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={fetchedData?.en.projects.project1.linkApp}
                   className="my-4 text-black dark:text-white text-lg font-semibold leading-8"
                 >
                   {t("app")}→
@@ -79,7 +81,9 @@ const Projects = () => {
                   {t("github")}
                 </a>
                 <a
-                  href={fetchedData?.en.projects.project2.text}
+                  href={fetchedData?.en.projects.project2.linkApp}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="my-4 text-black dark:text-white text-lg font-semibold leading-8"
                 >
                   {t("app")}→
@@ -123,7 +127,7 @@ const Projects = () => {
                   {t("github")}
                 </a>
                 <a
-                  href={fetchedData?.tr.projects.project1.text}
+                  href={fetchedData?.tr.projects.project1.linkApp}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="my-4 text-black dark:text-white text-lg font-semibold leading-8"
@@ -166,7 +170,7 @@ const Projects = () => {
                   {t("github")}
                 </a>
                 <a
-                  href={fetchedData?.tr.projects.project2.text}
+                  href={fetchedData?.tr.projects.project2.linkApp}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="my-4 text-black dark:text-white text-lg font-semibold leading-8"
