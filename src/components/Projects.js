@@ -1,14 +1,15 @@
-import { useContext } from "react";
-import { GlobalContextObject } from "../contexts/GlobalContext";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="dark:bg-lightblack  px-32 flex flex-wrap justify-center py-4">
-      <h2 className="title dark:text-white ">Projects</h2>
+      <h2 className="title dark:text-white ">{t("projects")}</h2>
       <div className="flex flex-wrap justify-center gap-16 ">
         <div className="bg-babyblue dark:bg-project1 p-8 w-[460px] rounded-lg min-h-[668px] relative">
           <h3 className="text-black dark:text-white pf text-2xl font-bold  tracking-widest mb-4">
-            Project I
+            {t("project")} I
           </h3>
           <p className="text-black dark:text-white text-base leading-6 my-6">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
@@ -26,10 +27,10 @@ const Projects = () => {
               href="https://github.com/ozgedogru"
               target="_blank"
             >
-              View on GitHub
+              {t("github")}
             </a>
             <a className="my-4 text-black dark:text-white text-lg font-semibold leading-8">
-              Go to app →
+              {t("app")}→
             </a>
           </div>
           <img
@@ -44,7 +45,7 @@ const Projects = () => {
         </div>
         <div className="bg-babygreen dark:bg-project2 p-8 w-[460px] rounded-lg min-h-[668px] relative">
           <h3 className="text-black dark:text-white pf text-2xl font-bold  tracking-widest mb-4">
-            Project II
+            {t("project")} II
           </h3>
           <p className="text-black dark:text-white text-base leading-6 my-6">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
@@ -65,10 +66,10 @@ const Projects = () => {
               href="https://github.com/ozgedogru"
               target="_blank"
             >
-              View on GitHub
+              {t("github")}
             </a>
             <a className="my-4 text-black dark:text-white text-lg font-semibold leading-8">
-              Go to app →
+              {t("app")}→
             </a>
           </div>
           <img
@@ -84,7 +85,7 @@ const Projects = () => {
       </div>
       <div className="flex p-16">
         <p className=" text-black dark:text-white text-5xl font-medium leading-16 tracking-tight w-2/3 text-right p-8">
-          Let’s work together on your next product.
+          {t("work together")}
         </p>
         <div className="flex flex-wrap w-1/3 p-8">
           <a
@@ -95,7 +96,7 @@ const Projects = () => {
             GitHub
           </a>
           <a className="text-black dark:text-white text-xl font-medium leading-6 w-full">
-            Personal Blog
+            {t("blog")}
           </a>
           <a
             className="text-linkblue text-xl font-medium leading-6 w-full"
@@ -104,7 +105,9 @@ const Projects = () => {
           >
             LinkedIn
           </a>
-          <a className="text-red text-xl font-medium leading-6 w-full">Email</a>
+          <a className="text-red text-xl font-medium leading-6 w-full">
+            {t("email")}
+          </a>
         </div>
       </div>
     </div>

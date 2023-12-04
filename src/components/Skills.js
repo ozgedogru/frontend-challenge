@@ -1,7 +1,11 @@
+import { useTranslation } from "react-i18next";
+
 const Skills = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="dark:bg-lightblack dark:text-logo px-32 flex flex-wrap justify-center py-4">
-      <h2 className="title dark:text-white">Skills</h2>
+      <h2 className="title dark:text-white">{t("skills")}</h2>
       <div className="p-4 text-center">
         <img
           className="w-32 h-32 mb-4 rounded-md"
