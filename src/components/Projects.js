@@ -16,7 +16,7 @@ const Projects = () => {
           <>
             <div className="bg-babyblue dark:bg-project1 p-8 w-[460px] rounded-lg min-h-[668px] relative">
               <h3 className="text-black dark:text-white pf text-2xl font-bold  tracking-widest mb-4">
-                {t("project")} I
+                {fetchedData?.en.projects.project1.name}
               </h3>
               <p className="text-black dark:text-white text-base leading-6 my-6">
                 {fetchedData?.en.projects.project1.text}
@@ -57,7 +57,7 @@ const Projects = () => {
             </div>
             <div className="bg-babygreen dark:bg-project2 p-8 w-[460px] rounded-lg min-h-[668px] relative">
               <h3 className="text-black dark:text-white pf text-2xl font-bold  tracking-widest mb-4">
-                {t("project")} II
+                {fetchedData?.en.projects.project2.name}
               </h3>
               <p className="text-black dark:text-white text-base leading-6 my-6">
                 {fetchedData?.en.projects.project2.text}
@@ -101,7 +101,7 @@ const Projects = () => {
           <>
             <div className="bg-babyblue dark:bg-project1 p-8 w-[460px] rounded-lg min-h-[668px] relative">
               <h3 className="text-black dark:text-white pf text-2xl font-bold  tracking-widest mb-4">
-                {t("project")} I
+                {fetchedData?.tr.projects.project1.name}
               </h3>
               <p className="text-black dark:text-white text-base leading-6 my-6">
                 {fetchedData?.tr.projects.project1.text}
@@ -144,7 +144,7 @@ const Projects = () => {
             </div>
             <div className="bg-babygreen dark:bg-project2 p-8 w-[460px] rounded-lg min-h-[668px] relative">
               <h3 className="text-black dark:text-white pf text-2xl font-bold  tracking-widest mb-4">
-                {t("project")} II
+                {fetchedData?.tr.projects.project2.name}
               </h3>
               <p className="text-black dark:text-white text-base leading-6 my-6">
                 {fetchedData?.tr.projects.project2.text}
@@ -188,7 +188,7 @@ const Projects = () => {
           </>
         )}
       </div>
-      <div className="flex p-16">
+      <div className="flex p-16 w-full">
         <p className=" text-black dark:text-white text-5xl font-medium leading-16 tracking-tight w-2/3 text-right p-8">
           {t("work together")}
         </p>

@@ -3,7 +3,7 @@ import { GlobalContextObject } from "../contexts/GlobalContext";
 import { FetchDataContextObject } from "../contexts/FetchDataContext";
 
 const AboutMe = () => {
-  const { language } = useContext(GlobalContextObject);
+  const { language, theme } = useContext(GlobalContextObject);
   const { fetchedData } = useContext(FetchDataContextObject);
 
   return (
@@ -68,7 +68,11 @@ const AboutMe = () => {
           )}
         </div>
         <div className="w-[333px]">
-          <img className="rounded-3xl" src="/pics/pp2.jpeg" alt="pp" />
+          <img
+            className="rounded-3xl"
+            src={theme === "dark" ? "/pics/pp2-shadow.jpeg" : "/pics/pp2.jpeg"}
+            alt="pp"
+          />
         </div>
       </div>
     </div>

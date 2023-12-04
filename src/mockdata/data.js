@@ -19,17 +19,19 @@ const data = {
     ],
     projects: {
       project1: {
-        name: "Project I",
-        text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-        hashtag: ["react", "vercel", "axios", "router"],
-        linkGitHub: "https://github.com/ozgedogru",
+        name: "Pizza Project",
+        text: "A website designed to bring food to software developers who are hungry in front of the computer! On this page of the 'Teknolojik Yemekler' brand, you can review the Homepage, Order Form and Order Confirmation pages.",
+        hashtag: ["react", "vercel", "axios", "router", "cypress"],
+        linkGitHub:
+          "https://github.com/ozgedogru/fsweb-s7-challenge-pizza/tree/advanced",
         linkApp: "https://vercel.com/",
       },
       project2: {
-        name: "Project II",
-        text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+        name: "Movie List Project",
+        text: "In this project, you can add and delete new movies to your list in a web application that contains a small database of movies. There's also a secret tab for your favorite movies!",
         hashtag: ["react", "redux", "axios", "router", "vercel"],
-        linkGitHub: "https://github.com/ozgedogru",
+        linkGitHub:
+          "https://github.com/ozgedogru/fsweb-s10g2-redux-filmler/tree/main",
         linkApp: "https://vercel.com/",
       },
     },
@@ -46,17 +48,19 @@ const data = {
       "Üç yıl ana branşımda çalıştıktan sonra bireysel yeteneklerimi yazılım sektöründe daha etkin kullanabileceğimi düşündüm. Aldığım yoğun eğitimin ardından bu sektörde bulabileceğim iş fırsatlarını heyecanla bekliyorum.",
     projects: {
       project1: {
-        name: "Proje I",
-        text: "TRLorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-        hashtag: ["react", "vercel", "axios", "router"],
-        linkGitHub: "https://github.com/ozgedogru",
+        name: "Pizza Projesi",
+        text: "Bilgisayar başında karnı acıkan yazılımcılara yiyecek getirmek için tasarlanmış bir web sitesi! 'Teknolojik Yemekler' markasına ait bu sayfada Anasayfa, Sipariş Formu ve Sipariş Onayı sayfalarını inceleyebilirsiniz.",
+        hashtag: ["react", "vercel", "axios", "router", "cypress"],
+        linkGitHub:
+          "https://github.com/ozgedogru/fsweb-s7-challenge-pizza/tree/advanced",
         linkApp: "https://vercel.com/",
       },
       project2: {
-        name: "Proje II",
-        text: "TRLorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+        name: "Film Listesi Projesi",
+        text: "Bu projede, küçük bir film veritabanı içeren bir web uygulamasında listenize yeni film ekleyip silebilirsiniz. Ayrıca favori filmleriniz için gizli bir sekme de var!",
         hashtag: ["react", "redux", "axios", "router", "vercel"],
-        linkGitHub: "https://github.com/ozgedogru",
+        linkGitHub:
+          "https://github.com/ozgedogru/fsweb-s10g2-redux-filmler/tree/main",
         linkApp: "https://vercel.com/",
       },
     },
