@@ -7,11 +7,11 @@ export const FetchDataContextObject = createContext();
 const FetchDataContextProvider = ({ children }) => {
   const [fetchedData, setFetchedData] = useState(null);
 
-  const fetchData = async () => {
+  const fetchData = () => {
     const url = "https://reqres.in/api/workintech";
     const postData = data;
 
-    await axios
+    axios
       .post(url, postData)
       .then((res) => {
         console.log("Data", res.data);
