@@ -1,23 +1,29 @@
+import { useContext, useEffect } from "react";
 import Options from "./components/Options";
 import AboutMe from "./components/AboutMe";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import GlobalContextProvider from "./contexts/GlobalContext";
 import "./i18n";
+
+import { FetchDataContextObject } from "./contexts/FetchDataContext";
 
 import "./App.css";
 
 function App() {
+  const { fetchData } = useContext(FetchDataContextObject);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <div>
-      <GlobalContextProvider>
-        <Options />
-        <AboutMe />
-        <Skills />
-        <Profile />
-        <Projects />
-      </GlobalContextProvider>
+      <Options />
+      <AboutMe />
+      <Skills />
+      <Profile />
+      <Projects />
     </div>
   );
 }

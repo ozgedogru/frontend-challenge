@@ -1,6 +1,4 @@
 {
-  "greeting": "Merhaba! 👋",
-  "intro": "Ben Özge. Full-stack web geliştiricisiyim. Kaliteli ve ölçeklenebilir ön yüz ürünleri üretebilirim. Tanışalım!",
   "skills": "Yetenekler",
   "profile": "Profil",
   "aboutme": "Hakkımda",
@@ -15,5 +13,6 @@
   "github": "GitHub'da İncele",
   "app": "Uygulama'ya git",
   "work together": "Bir sonraki projeniz üzerinde birlikte çalışalım.",
-  "blog": "Kişisel Blog"
+  "blog": "Kişisel Blog",
+  "email": "Eposta"
 }
