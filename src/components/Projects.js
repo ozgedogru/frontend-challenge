@@ -214,7 +214,7 @@ const Projects = () => {
             {t("blog")}
           </a>
           <a
-            className="text-linkblue text-xl font-medium leading-6 w-full"
+            className="text-linkblue text-xl font-medium leading-6"
             href="https://www.linkedin.com/in/%C3%B6zge-karademir/"
             target="_blank"
             rel="noopener noreferrer"
