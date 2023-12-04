@@ -1,7 +1,13 @@
+import { useContext } from "react";
 import { useTranslation } from "react-i18next";
+import { FetchDataContextObject } from "../contexts/FetchDataContext";
+import { GlobalContextObject } from "../contexts/GlobalContext";
 
 const Profile = () => {
   const { t } = useTranslation();
+  const { fetchedData } = useContext(FetchDataContextObject);
+  const { language } = useContext(GlobalContextObject);
+
   return (
     <div className="px-32 py-4 bg-lightgrey dark:bg-darkblack ">
       <div className=" flex flex-wrap justify-center min-[320px] max-[600px] mb-8">
@@ -11,19 +17,19 @@ const Profile = () => {
           <ul>
             <li className="list-none flex py-4">
               <p className="w-1/2 font-semibold">{t("birth date")}</p>
-              <p className="w-1/2">18.06.1995</p>
+              <p className="w-1/2">{fetchedData?.en.birthDate}</p>
             </li>
             <li className="list-none flex py-4">
               <p className="w-1/2 font-semibold">{t("residence")}</p>
-              <p className="w-1/2">St. Petersburg</p>
+              <p className="w-1/2">{fetchedData?.en.residence}</p>
             </li>
             <li className="list-none flex py-4">
               <p className="w-1/2 font-semibold">{t("education")}</p>
-              <p className="w-1/2">{t("itu")}</p>
+              <p className="w-1/2">{fetchedData?.en.education}</p>
             </li>
             <li className="list-none flex py-4">
               <p className="w-1/2 font-semibold">{t("role")}</p>
-              <p className="w-1/2">Frontend, UI</p>{" "}
+              <p className="w-1/2">{fetchedData?.en.role}</p>{" "}
             </li>
           </ul>
         </div>
@@ -32,11 +38,9 @@ const Profile = () => {
             {t("aboutme")}
           </h3>
           <p className="text-black dark:text-white leading-6 tracking-tight">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
-            aut, odit laborum aliquam voluptatum nisi mollitia.
-            <br />
-            Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod
-            deserunt quam temporibus cumque magnam!{" "}
+            {language === "en"
+              ? fetchedData?.en.aboutMeText
+              : fetchedData?.tr.aboutMeText}
           </p>
         </div>
       </div>
