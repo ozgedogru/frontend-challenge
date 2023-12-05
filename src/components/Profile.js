@@ -25,7 +25,11 @@ const Profile = () => {
             </li>
             <li className="list-none flex py-4">
               <p className="w-1/2 font-semibold">{t("education")}</p>
-              <p className="w-1/2">{fetchedData?.en.education}</p>
+              <p className="w-1/2">
+                {language === "en"
+                  ? fetchedData?.en.education
+                  : fetchedData?.tr.education}
+              </p>
             </li>
             <li className="list-none flex py-4">
               <p className="w-1/2 font-semibold">{t("role")}</p>
