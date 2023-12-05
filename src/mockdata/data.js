@@ -20,7 +20,7 @@ const data = {
     projects: {
       project1: {
         name: "Pizza Project",
-        text: "A website designed to bring food to software developers who are hungry in front of the computer! On this page of the 'Teknolojik Yemekler' brand, you can review the Homepage, Order Form and Order Confirmation pages.",
+        text: "A website designed to bring food to software developers who are hungry in front of the computer! On this page of the 'Teknolojik Yemekler' brand, you can review the Homepage, Order Form and Order Confirmation pages. ",
         hashtag: ["react", "vercel", "axios", "router", "cypress"],
         linkGitHub:
           "https://github.com/ozgedogru/fsweb-s7-challenge-pizza/tree/advanced",
@@ -28,7 +28,7 @@ const data = {
       },
       project2: {
         name: "Movie List Project",
-        text: "In this project, you can add and delete new movies to your list in a web application that contains a small database of movies. There's also a secret tab for your favorite movies!",
+        text: "In this project, you can add and delete new movies to your list in a web application that contains a small database of movies. There's also a secret tab for your favorite movies! ",
         hashtag: ["react", "redux", "axios", "router", "vercel"],
         linkGitHub:
           "https://github.com/ozgedogru/fsweb-s10g2-redux-filmler/tree/main",

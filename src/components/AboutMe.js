@@ -7,7 +7,7 @@ const AboutMe = () => {
   const { fetchedData } = useContext(FetchDataContextObject);
 
   return (
-    <div className="bg-lightgrey dark:bg-darkblack dark:text-white px-32 flex flex-wrap justify-center py-8">
+    <div className="bg-lightgrey dark:bg-darkblack dark:text-white sm:px-32 px-4 flex flex-wrap justify-center py-8">
       <div className="flex flex-wrap-reverse justify-center w-full">
         <div className="w-[666px] p-4">
           {language === "en" ? (

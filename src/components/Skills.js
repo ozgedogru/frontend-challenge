@@ -7,16 +7,18 @@ const Skills = () => {
   const { fetchedData } = useContext(FetchDataContextObject);
 
   return (
-    <div className="dark:bg-lightblack dark:text-logo px-32 flex flex-wrap justify-center py-4">
+    <div className="dark:bg-lightblack dark:text-logo sm:px-32 px-4 flex flex-wrap justify-center py-4">
       <h2 className="title dark:text-white">{t("skills")}</h2>
       {fetchedData?.en.skills.map((item) => (
-        <div className="p-4 text-center" key={item.name}>
+        <div className="p-4 w-min-4" key={item.name}>
           <img
-            className="w-32 h-32 mb-4 rounded-md"
+            className="sm:w-32 sm:h-32 w-24 h-24 rounded-md m-auto"
             src={item.src}
             alt={item.alt}
           ></img>
-          <p className="text-grey text-lg font-medium leading-6">{item.name}</p>
+          <p className="text-grey text-lg text-center font-small sm:font-medium leading-6 mt-4">
+            {item.name}
+          </p>
         </div>
       ))}
     </div>

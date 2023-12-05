@@ -16,6 +16,7 @@
   line-height: normal;
   letter-spacing: 0.36px;
   width: 100%;
+  min-width: min-content;
   text-align: center;
   margin: 3rem 0;
 }
@@ -40,4 +41,9 @@
 .dark {
   background-color: #525252;
   color: white;
+}
+
+.relative-top-45 {
+  position: relative;
+  top: 45%;
 }
