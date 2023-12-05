@@ -1,11 +1,11 @@
 import { useContext, useEffect } from "react";
+import "./i18n";
+
 import Options from "./components/Options";
 import AboutMe from "./components/AboutMe";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import "./i18n";
-
 import { FetchDataContextObject } from "./contexts/FetchDataContext";
 
 import "./App.css";
