@@ -1,14 +1,18 @@
 import { useContext } from "react";
 import { useTranslation } from "react-i18next";
 import { FetchDataContextObject } from "../contexts/FetchDataContext";
+import { GlobalContextObject } from "../contexts/GlobalContext";
 
 const Skills = () => {
   const { t } = useTranslation();
   const { fetchedData } = useContext(FetchDataContextObject);
+  const { language } = useContext(GlobalContextObject);
 
   return (
     <div className="dark:bg-lightblack dark:text-logo sm:px-32 px-4 flex flex-wrap justify-center py-4">
-      <h2 className="title dark:text-white">{t("skills")}</h2>
+      <h2 className="title dark:text-white">
+        {language === "en" ? "Skills" : "Yetenekler"}
+      </h2>
       {fetchedData?.en.skills.map((item) => (
         <div className="p-4 w-min-4" key={item.name}>
           <img

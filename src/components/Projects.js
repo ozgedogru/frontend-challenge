@@ -10,7 +10,9 @@ const Projects = () => {
 
   return (
     <div className="dark:bg-lightblack  sm:px-32 px-4 flex flex-wrap justify-center py-4">
-      <h2 className="title dark:text-white ">{t("projects")}</h2>
+      <h2 className="title dark:text-white ">
+        {language === "en" ? "Projects" : "Projeler"}
+      </h2>
       <div className="flex flex-wrap justify-center gap-16 ">
         {language === "en" ? (
           <>
