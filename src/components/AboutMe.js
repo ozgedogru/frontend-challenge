@@ -19,12 +19,18 @@ const AboutMe = () => {
               </p>
               <img
                 className="inline-flex w-8 h-8 m-4 ml-0"
-                src="/icons/linkedin.png"
+                src={
+                  theme === "dark"
+                    ? "/icons/linkedin-w.png"
+                    : "/icons/linkedin.png"
+                }
                 alt="LinkedIn"
               />
               <img
                 className="inline-flex w-8 h-8 m-4 ml-0"
-                src="/icons/github.png"
+                src={
+                  theme === "dark" ? "/icons/github-w.png" : "/icons/github.png"
+                }
                 alt="GitHub"
               />
 
