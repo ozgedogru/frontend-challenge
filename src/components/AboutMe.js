@@ -63,35 +63,35 @@ const AboutMe = () => {
                 Kaliteli ve ölçeklenebilir ön yüz ürünleri üretebilirim.
                 Tanışalım!
               </p>
-              <img
-                className="inline-flex w-8 h-8 m-4 ml-0"
-                src={
-                  theme === "dark"
-                    ? "/icons/linkedin-w.png"
-                    : "/icons/linkedin.png"
-                }
-                alt="LinkedIn"
-              />
+              <a
+                href="https://www.linkedin.com/in/%C3%B6zge-karademir/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="inline-flex w-8 h-8 m-4 ml-0"
+                  src={
+                    theme === "dark"
+                      ? "/icons/linkedin-w.png"
+                      : "/icons/linkedin.png"
+                  }
+                  alt="LinkedIn"
+                />
+              </a>
               <a
                 href="https://github.com/ozgedogru"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <a
-                  href="https://www.linkedin.com/in/%C3%B6zge-karademir/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    className="inline-flex w-8 h-8 m-4 ml-0"
-                    src={
-                      theme === "dark"
-                        ? "/icons/github-w.png"
-                        : "/icons/github.png"
-                    }
-                    alt="GitHub"
-                  />
-                </a>
+                <img
+                  className="inline-flex w-8 h-8 m-4 ml-0"
+                  src={
+                    theme === "dark"
+                      ? "/icons/github-w.png"
+                      : "/icons/github.png"
+                  }
+                  alt="GitHub"
+                />
               </a>
               <p className="text-lg leading-8 tracking-tighter	">
                 Şu anda{" "}
