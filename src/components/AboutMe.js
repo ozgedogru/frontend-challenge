@@ -17,23 +17,36 @@ const AboutMe = () => {
                 I’m {fetchedData?.en.name}. I’m a full-stack developer. I can
                 craft solid and scalable frontend products. Let’s meet!
               </p>
-              <img
-                className="inline-flex w-8 h-8 m-4 ml-0"
-                src={
-                  theme === "dark"
-                    ? "/icons/linkedin-w.png"
-                    : "/icons/linkedin.png"
-                }
-                alt="LinkedIn"
-              />
-              <img
-                className="inline-flex w-8 h-8 m-4 ml-0"
-                src={
-                  theme === "dark" ? "/icons/github-w.png" : "/icons/github.png"
-                }
-                alt="GitHub"
-              />
-
+              <a
+                href="https://www.linkedin.com/in/%C3%B6zge-karademir/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="inline-flex w-8 h-8 m-4 ml-0"
+                  src={
+                    theme === "dark"
+                      ? "/icons/linkedin-w.png"
+                      : "/icons/linkedin.png"
+                  }
+                  alt="LinkedIn"
+                />
+              </a>
+              <a
+                href="https://github.com/ozgedogru"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="inline-flex w-8 h-8 m-4 ml-0"
+                  src={
+                    theme === "dark"
+                      ? "/icons/github-w.png"
+                      : "/icons/github.png"
+                  }
+                  alt="GitHub"
+                />
+              </a>
               <p className="text-lg leading-8 tracking-tighter	">
                 Currently <span className="text-red">Freelancing</span> for{" "}
                 <span className="text-red">UX, UI, & Web Design</span> Project.
@@ -59,13 +72,28 @@ const AboutMe = () => {
                 }
                 alt="LinkedIn"
               />
-              <img
-                className="inline-flex w-8 h-8 m-4 ml-0"
-                src={
-                  theme === "dark" ? "/icons/github-w.png" : "/icons/github.png"
-                }
-                alt="GitHub"
-              />
+              <a
+                href="https://github.com/ozgedogru"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <a
+                  href="https://www.linkedin.com/in/%C3%B6zge-karademir/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="inline-flex w-8 h-8 m-4 ml-0"
+                    src={
+                      theme === "dark"
+                        ? "/icons/github-w.png"
+                        : "/icons/github.png"
+                    }
+                    alt="GitHub"
+                  />
+                </a>
+              </a>
+
               <p className="text-lg leading-8 tracking-tighter	">
                 Şu anda{" "}
                 <span className="text-red">
