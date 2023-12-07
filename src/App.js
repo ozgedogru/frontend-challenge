@@ -1,5 +1,4 @@
 import { useContext, useEffect } from "react";
-import "./i18n";
 
 import Options from "./components/Options";
 import AboutMe from "./components/AboutMe";

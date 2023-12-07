@@ -10,9 +10,7 @@ const Projects = () => {
 
   return (
     <div className="dark:bg-lightblack  sm:px-32 px-4 flex flex-wrap justify-center py-4">
-      <h2 className="title dark:text-white ">
-        {language === "en" ? "Projects" : "Projeler"}
-      </h2>
+      <h2 className="title dark:text-white sm:my-12 my-4 ">{t("projects")}</h2>
       <div className="flex flex-wrap justify-center gap-16 ">
         {language === "en" ? (
           <>
@@ -54,7 +52,6 @@ const Projects = () => {
                 alt="pc"
               ></img>
             </div>
-
             <div className="bg-babygreen dark:bg-project2 p-8 pb-0 max-w-[460px] rounded-lg min-h-[668px] relative ">
               <h3 className="text-black dark:text-white pf text-2xl font-bold  tracking-widest mb-4">
                 {fetchedData?.en.projects.project2.name}

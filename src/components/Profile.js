@@ -11,9 +11,7 @@ const Profile = () => {
   return (
     <div className="sm:px-32 px-4 py-4 bg-lightgrey dark:bg-darkblack ">
       <div className=" flex flex-wrap justify-center min-[320px] max-[600px] mb-8">
-        <h2 className="title dark:text-white">
-          {language === "en" ? "Profile" : "Profil"}
-        </h2>
+        <h2 className="title dark:text-white sm:my-12 my-4">{t("profile")}</h2>
         <div className="flex flex-wrap w-[500px] min-w-min bg-white dark:bg-basicinfo dark:text-white rounded-lg p-4 md:p-16">
           <h3 className="text-pink pf text-lg w-full">{t("basic info")}</h3>
           <ul>

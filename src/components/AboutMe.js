@@ -8,7 +8,7 @@ const AboutMe = () => {
 
   return (
     <div className="bg-lightgrey dark:bg-darkblack dark:text-white sm:px-32 px-4 flex flex-wrap justify-center py-8">
-      <div className="flex flex-wrap-reverse justify-center w-full">
+      <div className="flex flex-wrap-reverse sm:justify-center justify-start w-full">
         <div className="w-[666px] p-4">
           {language === "en" ? (
             <>
@@ -93,7 +93,6 @@ const AboutMe = () => {
                   />
                 </a>
               </a>
-
               <p className="text-lg leading-8 tracking-tighter	">
                 Şu anda{" "}
                 <span className="text-red">
@@ -107,7 +106,7 @@ const AboutMe = () => {
             </>
           )}
         </div>
-        <div className="w-[333px]">
+        <div className="w-[333px] m-4">
           <img
             className="rounded-3xl"
             src={theme === "dark" ? "/pics/pp2-shadow.jpeg" : "/pics/pp2.jpeg"}
