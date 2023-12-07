@@ -39,11 +39,11 @@ const Options = () => {
           />
           <div className="w-11 h-6 bg-pink peer-focus:outline-none dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-yellow after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-grey peer-checked:bg-blue-600"></div>
           {language === "en" ? (
-            <span className="text-grey font-bold pl-4 tracking-wider">
+            <span className="text-grey text-sm font-bold pl-4 tracking-wider">
               {theme === "dark" ? "LIGHT" : "DARK"} MODE
             </span>
           ) : (
-            <span className="text-grey font-bold pl-4 tracking-wider">
+            <span className="text-grey text-sm font-bold pl-4 tracking-wider">
               {theme === "dark" ? "GÜNDÜZ" : "GECE"} MODU
             </span>
           )}
@@ -54,12 +54,12 @@ const Options = () => {
           className="text-grey font-bold pl-4 tracking-wider"
         >
           {language === "en" ? (
-            <p>
+            <p className="text-sm">
               <span className="text-pink font-bold ">TÜRKÇE</span>
               ’YE GEÇ
             </p>
           ) : (
-            <p>
+            <p className="text-sm">
               SWITCH TO <span className="text-pink font-bold ">ENGLISH</span>
             </p>
           )}
