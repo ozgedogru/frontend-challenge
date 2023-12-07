@@ -28,9 +28,9 @@ const Options = () => {
   }, [theme]);
 
   return (
-    <div className="bg-lightgrey  dark:bg-darkblack dark:text-white sm:px-32 px-4 flex flex-wrap justify-center py-8">
+    <div className="bg-lightgrey  dark:bg-darkblack dark:text-white sm:px-32 px-4 flex flex-wrap justify-center pt-8">
       <div className="w-full flex justify-end">
-        <label className="relative inline-flex items-center cursor-pointer">
+        <label className="relative inline-flex cursor-pointer">
           <input
             type="checkbox"
             checked={theme === "dark"}
