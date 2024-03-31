@@ -12,7 +12,7 @@ const Skills = () => {
       {fetchedData?.en.skills.map((item) => (
         <div className="p-4 w-min-4" key={item.name}>
           <img
-            className="sm:w-32 sm:h-32 w-24 h-24 rounded-md m-auto"
+            className="sm:w-24 sm:h-24 w-24 h-24 rounded-md m-auto"
             src={item.src}
             alt={item.alt}
           ></img>

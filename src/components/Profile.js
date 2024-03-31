@@ -37,7 +37,7 @@ const Profile = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-wrap w-[500px] min-w-min p-4 md:p-16">
+        <div className="flex flex-wrap w-[540px] min-w-min p-4 md:p-16">
           <h3 className="text-black dark:text-white pf text-lg w-full">
             {t("aboutme")}
           </h3>

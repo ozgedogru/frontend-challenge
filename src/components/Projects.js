@@ -47,7 +47,7 @@ const Projects = () => {
                 </a>
               </div>
               <img
-                className="absolute left-1/2 transform -translate-x-1/2"
+                className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -mb-12"
                 src="./pics/pc-left.png"
                 alt="pc"
               ></img>
@@ -85,7 +85,7 @@ const Projects = () => {
                 </a>
               </div>
               <img
-                className="absolute left-1/2 transform -translate-x-1/2"
+                className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -mb-10"
                 src="./pics/pc-right.png"
                 alt="pc"
               ></img>
