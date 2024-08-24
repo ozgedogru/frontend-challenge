@@ -18,7 +18,7 @@ const AboutMe = () => {
                 craft solid and scalable frontend products. Let’s meet!
               </p>
               <a
-                href="https://www.linkedin.com/in/%C3%B6zge-karademir/"
+                href="https://www.linkedin.com/in/ozge-dogru/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -64,7 +64,7 @@ const AboutMe = () => {
                 Tanışalım!
               </p>
               <a
-                href="https://www.linkedin.com/in/%C3%B6zge-karademir/"
+                href="https://www.linkedin.com/in/ozge-dogru/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

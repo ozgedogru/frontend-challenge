@@ -38,7 +38,7 @@ const data = {
         text: "This e-commerce project provides a dynamic platform where users can register as either a store or a customer. Stores can showcase their products for sale, while customers can browse, add items to their wishlist and cart, and make purchases. Users have the capability to categorize products and store their payment and address information securely within their accounts.",
         hashtag: ["react", "redux", "java", "spring boot", "postgresql"],
         linkGitHub: "https://github.com/ozgedogru/e-commerce",
-        linkApp: "https://shopswiftly-theta.vercel.app/",
+        linkApp: "https://shop-swiftly-five.vercel.app/",
       },
       project2: {
         name: "Pizza Project",
@@ -66,7 +66,7 @@ const data = {
         text: "Bu e-ticaret projesi, kullanıcıların mağaza veya müşteri olarak kaydolabilecekleri dinamik bir platform sunar. Mağazalar ürünlerini satmak için vitrin oluşturabilirken, müşteriler ürünleri gezinebilir, istek listelerine ve alışveriş sepetlerine ürün ekleyebilir ve satın alma işlemleri gerçekleştirebilirler. Kullanıcılar ürünleri kategorize edebilir ve ödeme ile ilgili bilgilerini ve adreslerini hesaplarında güvenli bir şekilde saklayabilirler.",
         hashtag: ["react", "redux", "java", "spring boot", "postgresql"],
         linkGitHub: "https://github.com/ozgedogru/e-commerce",
-        linkApp: "https://shopswiftly-theta.vercel.app/",
+        linkApp: "https://shop-swiftly-five.vercel.app/",
       },
       project2: {
         name: "Pizza Projesi",
