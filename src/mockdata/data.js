@@ -46,7 +46,7 @@ const data = {
         hashtag: ["react", "vercel", "axios", "router", "cypress", "figma"],
         linkGitHub:
           "https://github.com/ozgedogru/fsweb-s7-challenge-pizza/tree/advanced",
-        linkApp: "https://vercel.com/",
+        linkApp: "https://pizza-challenge-s7.vercel.app/",
       },
     },
   },
@@ -74,7 +74,7 @@ const data = {
         hashtag: ["react", "vercel", "axios", "router", "cypress"],
         linkGitHub:
           "https://github.com/ozgedogru/fsweb-s7-challenge-pizza/tree/advanced",
-        linkApp: "https://vercel.com/",
+        linkApp: "https://pizza-challenge-s7.vercel.app/",
       },
     },
   },
